@@ -73,6 +73,7 @@ def DeviationCalculation(pars,Te,Fc,option):
             
         Dev = round((Fc_cal - Fc[i])/Fc[i]*100,2)
         print("Fc: " + str(Fc[i]) + "\t Deviation: " + str(Dev))
+    print("")
 
 def getStrengthParameter(Te,Fc):
     F_strength =[Func_ScandinavianCode,Func_AmericanCode]
